@@ -1,0 +1,3121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LandXML xmlns="http://buildingsmart.fi/inframodel/404" xmlns:im="http://buildingsmart.fi/im/404" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://buildingsmart.fi/inframodel/404 https://buildingsmart.fi/infra/schema/4.0.4/inframodel.xsd http://buildingsmart.fi/im/404 https://buildingsmart.fi/infra/schema/4.0.4/im.xsd" version="1.2" date="2024-04-26" time="14:01:23" language="finnish" readOnly="false">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="HPA" diameterUnit="meter" widthUnit="meter" heightUnit="meter" velocityUnit="kilometersPerHour" angularUnit="grads" directionUnit="grads" elevationUnit="meter"/>
+	</Units>
+	<CoordinateSystem name="GK25" epsgCode="3879" rotationAngle="0" verticalCoordinateSystemName="N2000"/>
+	<FeatureDictionary name="inframodel" version="4.0.4">
+		<DocFileRef name="Inframodel extensions" location="https://buildingsmart.fi/infra/inframodel/pages/extensions.html"/>
+	</FeatureDictionary>
+	<Project name="output.xy.xml" desc="output.xy.xml">
+		<Feature code="IM_codings" source="inframodel">
+			<Property label="terrainCoding" value="Infra"/>
+			<Property label="surfaceCoding" value="InfraBIM"/>
+			<Property label="infraCoding" value="InfraBIM"/>
+		</Feature>
+	</Project>
+	<Application name="3D-Win" manufacturer="Novatron Oy" version="2023.4.0.0" manufacturerURL="https://3d-system.fi" timeStamp="2024-04-26T14:01:23+02:00">
+		<Author createdBy="" createdByEmail="" company="" companyURL=""/>
+	</Application>
+	<Surfaces name="output">
+		<Surface name="output">
+			<SourceData>
+				<Breaklines>
+					<Breakline brkType="standard" name=".1">
+						<PntList3D>6697755.178594 25506083.542485 37.138000 6697740.467619 25506083.870459 37.278000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".2">
+						<PntList3D>6697755.178594 25506083.542485 37.048000 6697754.893621 25506076.020651 37.049000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".3">
+						<PntList3D>6697782.480001 25506086.810003 36.826000 6697755.178594 25506083.542485 37.048000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".4">
+						<PntList3D>6697755.509382 25506089.427901 37.052000 6697755.179594 25506083.542500 37.078000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".5">
+						<PntList3D>6697755.841795 25506109.320297 38.807500 6697755.510382 25506089.427917 37.052000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".6">
+						<PntList3D>6697756.373396 25506123.265306 0.000000 6697755.841795 25506109.320297 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".7">
+						<PntList3D>6697839.540001 25506094.550003 36.173000 6697782.480001 25506086.810003 36.816000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".8">
+						<PntList3D>6697791.390001 25506120.290003 0.000000 6697818.310001 25506131.870003 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".9">
+						<PntList3D>6697818.310001 25506131.870003 0.000000 6697822.760001 25506130.530003 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".10">
+						<PntList3D>6697839.540001 25506094.550003 34.363000 6697818.310001 25506131.870003 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".11">
+						<PntList3D>6697839.540001 25506094.550003 36.423000 6697825.880001 25506104.490003 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".12">
+						<PntList3D>6697851.870001 25506087.370003 34.117000 6697839.540001 25506094.550003 34.353000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".13">
+						<PntList3D>6697851.870001 25506087.370003 35.807000 6697851.788448 25506090.117611 0.000000 6697851.892332 25506090.894133 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".14">
+						<PntList3D>6697851.870001 25506087.370003 33.867000 6697852.589680 25506087.128458 31.330117</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".15">
+						<PntList3D>6697674.510001 25506018.420003 36.197000 6697664.556971 25506016.495903 36.564000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".16">
+						<PntList3D>6697674.510001 25506018.420003 36.157000 6697671.863128 25506032.281761 36.257500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".17">
+						<PntList3D>6697671.863128 25506032.281761 0.000000 6697663.873472 25506031.262834 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".18">
+						<PntList3D>6697671.863128 25506032.281761 0.000000 6697665.591430 25506070.619284 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".19">
+						<PntList3D>6697671.863128 25506032.281761 0.000000 6697680.693436 25506033.750307 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".20">
+						<PntList3D>6697665.591430 25506070.619284 0.000000 6697664.563333 25506071.082728 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".21">
+						<PntList3D>6697665.591430 25506070.619284 0.000000 6697663.068222 25506071.413082 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".22">
+						<PntList3D>6697665.591430 25506070.619284 0.317500 6697656.291353 25506129.282274 38.314500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".23">
+						<PntList3D>6697647.521307 25506111.438088 39.581500 6697645.610699 25506102.829533 39.596500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".24">
+						<PntList3D>6697648.717960 25506117.006611 39.607500 6697647.521307 25506111.438088 39.581500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".25">
+						<PntList3D>6697608.251898 25506116.631043 40.360000 6697608.408205 25506120.700690 40.330000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".26">
+						<PntList3D>6697648.717960 25506117.006611 39.357500 6697646.411769 25506117.957198 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".27">
+						<PntList3D>6697648.717960 25506117.006611 39.357500 6697654.625243 25506125.324743 39.657500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".28">
+						<PntList3D>6697608.408205 25506120.700690 40.120000 6697615.536095 25506139.669054 39.980000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".29">
+						<PntList3D>6697656.291353 25506129.282274 39.134500 6697654.625243 25506125.324743 39.657500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".30">
+						<PntList3D>6697635.342430 25506131.095771 39.020000 6697656.291353 25506129.282274 38.314500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".31">
+						<PntList3D>6697656.291353 25506129.282274 38.814500 6697661.411700 25506136.112764 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".32">
+						<PntList3D>6697656.291353 25506129.282274 38.354500 6697693.901574 25506134.712887 38.527500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".33">
+						<PntList3D>6697635.342430 25506131.095771 39.020000 6697615.536095 25506139.669054 39.950000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".34">
+						<PntList3D>6697472.333765 25505998.364223 38.017500 6697431.957907 25506007.802703 40.197500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".35">
+						<PntList3D>6697472.333765 25505998.364223 0.000000 6697470.732519 25506010.970806 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".36">
+						<PntList3D>6697603.065001 25506005.656003 37.076000 6697586.741998 25506002.440003 37.012000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".37">
+						<PntList3D>6697431.957907 25506007.802703 0.000000 6697431.028365 25506006.546680 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".38">
+						<PntList3D>6697431.957907 25506007.802703 0.000000 6697430.354517 25506007.670434 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".39">
+						<PntList3D>6697470.732519 25506010.970806 0.000000 6697464.088580 25506052.752922 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".40">
+						<PntList3D>6697464.088580 25506052.752922 0.000000 6697472.746096 25506054.934333 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".41">
+						<PntList3D>6697472.746096 25506054.934333 0.000000 6697475.283426 25506053.802726 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".42">
+						<PntList3D>6697363.320332 25506081.271059 40.450000 6697361.842533 25506085.693213 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".43">
+						<PntList3D>6697364.731956 25506100.165749 40.830000 6697365.721703 25506097.634258 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".44">
+						<PntList3D>6697362.052082 25506107.400610 40.910000 6697364.731956 25506100.165749 40.830000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".45">
+						<PntList3D>6697364.731956 25506100.165749 40.610000 6697420.812314 25506124.929701 41.010000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".46">
+						<PntList3D>6697428.729637 25506107.531555 42.240000 6697426.472541 25506112.210653 42.050000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".47">
+						<PntList3D>6697426.472541 25506112.210653 41.330000 6697420.812314 25506124.929701 41.290000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".48">
+						<PntList3D>6697515.929860 25506118.461401 41.981000 6697501.849362 25506118.251279 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".49">
+						<PntList3D>6697540.418037 25506126.672243 41.462000 6697515.929860 25506118.461401 41.981000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".50">
+						<PntList3D>6697420.812314 25506124.929701 41.290000 6697418.867717 25506130.632606 41.330000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".51">
+						<PntList3D>6697540.161766 25506131.503687 40.986000 6697540.418037 25506126.672243 41.462000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".52">
+						<PntList3D>6697418.867717 25506130.632606 41.370000 6697414.987659 25506140.446446 41.510000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".53">
+						<PntList3D>6697245.080442 25506064.177207 38.570000 6697210.306355 25506057.958562 38.180000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".54">
+						<PntList3D>6697245.080442 25506064.177207 38.727500 6697243.069054 25506075.472482 38.807500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".55">
+						<PntList3D>6697245.080442 25506064.177207 38.640000 6697277.830058 25506069.956131 38.947500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".56">
+						<PntList3D>6697247.174012 25506051.876429 0.317500 6697245.080442 25506064.177207 38.687500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".57">
+						<PntList3D>6697249.157630 25506040.702423 38.850000 6697247.174012 25506051.876429 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".58">
+						<PntList3D>6697250.639903 25506035.043677 0.000000 6697249.157630 25506040.702423 38.850000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".59">
+						<PntList3D>6697249.157630 25506040.702423 39.057500 6697254.553341 25506037.016811 39.253943 6697258.646049 25506031.288298 39.057500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".60">
+						<PntList3D>6697250.639903 25506035.043677 0.000000 6697255.739814 25506031.839906 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".61">
+						<PntList3D>6697275.217584 25506085.409575 40.057500 6697275.334401 25506074.077574 39.677500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".62">
+						<PntList3D>6697275.334401 25506074.077574 39.157500 6697277.830058 25506069.956131 39.207500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".63">
+						<PntList3D>6697277.830058 25506069.956131 38.987500 6697311.474211 25506077.022705 39.217500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".64">
+						<PntList3D>6697277.830058 25506069.956131 0.317500 6697280.125370 25506061.503355 38.907500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".65">
+						<PntList3D>6697280.125370 25506061.503355 38.987500 6697284.041718 25506050.813003 39.227500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".66">
+						<PntList3D>6697284.041718 25506050.813003 39.287500 6697285.770082 25506045.981878 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".67">
+						<PntList3D>6697311.474211 25506077.022705 39.377500 6697308.239731 25506085.548247 39.437500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".68">
+						<PntList3D>6697308.239731 25506085.548247 39.457500 6697309.314184 25506097.461349 40.020000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".69">
+						<PntList3D>6697309.314184 25506097.461349 40.037500 6697310.782110 25506103.233580 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".70">
+						<PntList3D>6697311.474211 25506077.022705 39.237500 6697357.385922 25506096.837145 40.270000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".71">
+						<PntList3D>6697357.385922 25506096.837145 40.310000 6697359.457551 25506091.858215 40.370000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".72">
+						<PntList3D>6697357.385922 25506096.837145 40.290000 6697364.731956 25506100.165749 40.560000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".73">
+						<PntList3D>6697358.157525 25506117.445247 41.120000 6697358.955745 25506123.506598 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".74">
+						<PntList3D>6697358.157525 25506117.445247 41.120000 6697362.052082 25506107.400610 40.940000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".75">
+						<PntList3D>6697359.457551 25506091.858215 40.320000 6697361.842533 25506085.693213 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".76">
+						<PntList3D>6697678.962001 25505957.998003 35.850000 6697686.725001 25505914.247003 35.660000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".77">
+						<PntList3D>6697696.537469 25505927.436713 0.000000 6697686.448543 25505991.560126 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".78">
+						<PntList3D>6697684.464221 25505957.737730 0.000000 6697678.187071 25505995.775154 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".79">
+						<PntList3D>6697678.962001 25505957.998003 36.890000 6697675.895577 25505958.610703 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".80">
+						<PntList3D>6697669.131001 25506014.950003 36.000000 6697678.962001 25505957.998003 35.850000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".81">
+						<PntList3D>6697686.448543 25505991.560126 0.000000 6697687.428306 25505993.252958 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".82">
+						<PntList3D>6697678.187071 25505995.775154 0.000000 6697685.130164 25505998.240593 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".83">
+						<PntList3D>6697678.187071 25505995.775154 36.097500 6697674.510001 25506018.420003 36.157000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".84">
+						<PntList3D>6697633.157001 25506007.795003 37.492000 6697631.909833 25506005.583359 37.140000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".85">
+						<PntList3D>6697628.750001 25506010.750003 36.870000 6697626.633335 25506010.300211 38.740000 6697603.065001 25506005.656003 37.056000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".86">
+						<PntList3D>6697633.157001 25506007.795003 38.072000 6697634.767331 25506006.086067 37.140000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".87">
+						<PntList3D>6697633.157001 25506007.795003 37.392000 6697634.872001 25506009.998003 37.140000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".88">
+						<PntList3D>6697652.208501 25506009.004149 37.140000 6697653.828001 25506012.936003 37.005000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".89">
+						<PntList3D>6697634.872001 25506009.998003 37.090000 6697653.828001 25506012.936003 36.755000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".90">
+						<PntList3D>6697664.556971 25506016.495903 36.594000 6697628.750001 25506010.750003 36.850000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".91">
+						<PntList3D>6697653.828001 25506012.936003 36.025000 6697669.131001 25506014.950003 36.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".92">
+						<PntList3D>6697845.813303 25505927.527049 0.000000 6697845.556300 25505928.779238 0.000000 6697844.637395 25505929.428350 0.000000 6697844.497744 25505929.998272 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".93">
+						<PntList3D>6697845.566969 25505923.195018 0.000000 6697896.327279 25505933.428356 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".94">
+						<PntList3D>6697873.797577 25505932.515693 0.000000 6697845.813303 25505927.527049 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".95">
+						<PntList3D>6697934.015847 25505944.060608 0.000000 6697873.797577 25505932.515693 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".96">
+						<PntList3D>6697873.797577 25505932.515693 0.000000 6697875.467425 25505934.182126 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".97">
+						<PntList3D>6697896.327279 25505933.428356 0.000000 6697935.482544 25505940.512522 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".98">
+						<PntList3D>6697896.327279 25505933.428356 0.000000 6697900.614198 25505927.156532 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".99">
+						<PntList3D>6697935.482544 25505940.512522 0.000000 6697936.625201 25505940.695916 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".100">
+						<PntList3D>6697935.482544 25505940.512522 0.000000 6697943.659480 25505931.625398 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".101">
+						<PntList3D>6697760.190452 25505911.961762 0.000000 6697754.430486 25505910.746346 0.000000 6697730.500138 25505906.572228 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".102">
+						<PntList3D>6697760.438335 25505913.355616 0.000000 6697760.117893 25505912.855723 0.000000 6697760.109820 25505912.728592 0.000000 6697760.190452 25505911.961762 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".103">
+						<PntList3D>6697796.544925 25505918.030387 0.000000 6697761.792101 25505912.124058 0.000000 6697760.190452 25505911.961762 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".104">
+						<PntList3D>6697760.438335 25505913.355616 0.000000 6697761.821134 25505914.100633 0.000000 6697761.906331 25505914.219933 0.000000 6697761.898390 25505914.413826 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".105">
+						<PntList3D>6697761.461774 25505908.252785 0.000000 6697794.403510 25505914.354667 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".106">
+						<PntList3D>6697761.898390 25505914.413826 0.000000 6697761.693967 25505919.673617 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".107">
+						<PntList3D>6697793.306300 25505918.980347 0.000000 6697793.072362 25505919.502836 0.000000 6697791.628990 25505924.947273 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".108">
+						<PntList3D>6697794.403510 25505914.354667 0.000000 6697792.677103 25505909.427154 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".109">
+						<PntList3D>6697793.306300 25505918.980347 0.000000 6697793.546965 25505918.343953 0.000000 6697793.592430 25505918.181631 0.000000 6697794.403510 25505914.354667 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".110">
+						<PntList3D>6697794.403510 25505914.354667 0.000000 6697845.566969 25505923.195018 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".111">
+						<PntList3D>6697796.206228 25505919.483444 0.000000 6697795.911143 25505922.366074 0.000000 6697795.488740 25505925.617586 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".112">
+						<PntList3D>6697796.544925 25505918.030387 0.000000 6697796.206228 25505919.483444 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".113">
+						<PntList3D>6697796.206228 25505919.483444 0.000000 6697796.414033 25505919.671514 0.000000 6697799.248946 25505921.668634 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".114">
+						<PntList3D>6697845.813303 25505927.527049 0.000000 6697811.606944 25505921.064966 0.000000 6697811.470087 25505921.054890 0.000000 6697796.544925 25505918.030387 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".115">
+						<PntList3D>6697799.248946 25505921.668634 0.000000 6697799.247456 25505922.096641 0.000000 6697800.303307 25505926.473959 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".116">
+						<PntList3D>6697532.150321 25505873.083583 0.000000 6697527.087608 25505907.998211 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".117">
+						<PntList3D>6697573.979801 25505875.746974 0.000000 6697573.072928 25505880.153525 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".118">
+						<PntList3D>6697573.979801 25505875.746974 0.000000 6697637.134335 25505886.945279 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".119">
+						<PntList3D>6697573.072928 25505880.153525 0.000000 6697572.299139 25505879.212729 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".120">
+						<PntList3D>6697636.768037 25505890.326956 0.000000 6697572.299139 25505879.212729 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".121">
+						<PntList3D>6697573.072928 25505880.153525 0.000000 6697571.960739 25505886.512396 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".122">
+						<PntList3D>6697527.087608 25505907.998211 0.000000 6697521.188888 25505946.141383 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".123">
+						<PntList3D>6697521.188888 25505946.141383 0.000000 6697518.472925 25505963.011357 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".124">
+						<PntList3D>6697518.472925 25505963.011357 0.000000 6697514.096490 25505991.776967 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".125">
+						<PntList3D>6697514.096490 25505991.776967 0.000000 6697472.333765 25505998.364223 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".126">
+						<PntList3D>6697583.358001 25505999.728003 38.289000 6697584.075289 25505997.667760 37.799000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".127">
+						<PntList3D>6697472.333765 25505998.364223 0.000000 6697471.969798 25505998.102390 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".128">
+						<PntList3D>6697586.741998 25506002.440003 37.662000 6697583.358000 25505999.728003 37.799000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".129">
+						<PntList3D>6697699.667868 25505868.527147 0.000000 6697696.884231 25505868.094912 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".130">
+						<PntList3D>6697702.636736 25505868.615167 0.000000 6697699.667883 25505868.526147 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".131">
+						<PntList3D>6697696.454944 25505897.725431 0.000000 6697702.636736 25505868.615167 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".132">
+						<PntList3D>6697702.636736 25505868.615167 0.000000 6697706.803417 25505869.512404 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".133">
+						<PntList3D>6697637.133335 25505886.945264 0.000000 6697637.571359 25505883.911697 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".134">
+						<PntList3D>6697637.134335 25505886.945279 0.000000 6697637.136064 25505888.181754 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".135">
+						<PntList3D>6697637.134335 25505886.945279 36.087500 6697636.768037 25505890.326956 36.097500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".136">
+						<PntList3D>6697637.134335 25505886.945279 0.000000 6697696.454944 25505897.725431 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".137">
+						<PntList3D>6697677.826181 25505897.596536 35.340000 6697636.768037 25505890.326956 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".138">
+						<PntList3D>6697636.768037 25505890.326956 35.697500 6697635.380320 25505897.674302 35.879500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".139">
+						<PntList3D>6697636.768037 25505890.326956 0.000000 6697635.872246 25505891.298441 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".140">
+						<PntList3D>6697677.061001 25505903.305003 35.590000 6697677.818001 25505897.588003 35.540000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".141">
+						<PntList3D>6697695.601123 25505900.743691 0.000000 6697677.826181 25505897.596536 35.340000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".142">
+						<PntList3D>6697695.601123 25505900.743691 0.000000 6697695.097794 25505902.214161 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".143">
+						<PntList3D>6697695.601123 25505900.743691 0.000000 6697696.514915 25505902.080638 0.000000 6697696.518836 25505902.349716 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".144">
+						<PntList3D>6697707.872150 25505902.775883 0.000000 6697695.601123 25505900.743691 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".145">
+						<PntList3D>6697695.097794 25505902.214161 0.000000 6697692.162871 25505914.331490 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".146">
+						<PntList3D>6697696.518836 25505902.349716 0.000000 6697696.537469 25505927.436713 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".147">
+						<PntList3D>6697677.061001 25505903.305003 36.330000 6697676.549709 25505907.055009 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".148">
+						<PntList3D>6697686.725001 25505914.247003 35.660000 6697677.061001 25505903.305003 35.590000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".149">
+						<PntList3D>6697692.162871 25505914.331490 0.000000 6697690.576859 25505912.544321 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".150">
+						<PntList3D>6697692.162871 25505914.331490 0.000000 6697684.464221 25505957.737730 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".151">
+						<PntList3D>6697832.357617 25505833.461596 35.877500 6697847.771067 25505798.875927 35.970000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".152">
+						<PntList3D>6697905.604589 25505803.060098 36.491000 6697939.616593 25505809.281223 36.885000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".153">
+						<PntList3D>6697939.616593 25505809.281223 36.955000 6697940.610250 25505808.136207 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".154">
+						<PntList3D>6697832.357617 25505833.461596 0.000000 6697831.468796 25505833.050091 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".155">
+						<PntList3D>6697816.845385 25505873.045107 0.000000 6697832.357617 25505833.461596 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".156">
+						<PntList3D>6697832.357617 25505833.461596 0.000000 6697838.640403 25505835.152972 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".157">
+						<PntList3D>6697840.936782 25505835.863839 0.000000 6697838.640403 25505835.152972 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".158">
+						<PntList3D>6697840.936782 25505835.863839 0.000000 6697844.696945 25505837.581907 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".159">
+						<PntList3D>6697816.845385 25505873.045107 0.000000 6697814.999924 25505867.446017 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".160">
+						<PntList3D>6697825.293274 25505876.190411 0.000000 6697834.230586 25505869.089941 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".161">
+						<PntList3D>6697816.845385 25505873.045107 0.000000 6697814.540354 25505871.190031 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".162">
+						<PntList3D>6697794.403510 25505914.354667 0.000000 6697816.845385 25505873.045107 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".163">
+						<PntList3D>6697816.845385 25505873.045107 0.000000 6697821.134296 25505874.587242 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".164">
+						<PntList3D>6697821.134296 25505874.587242 0.000000 6697825.293274 25505876.190411 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".165">
+						<PntList3D>6697825.293274 25505876.190411 0.000000 6697827.965439 25505880.163800 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".166">
+						<PntList3D>6697771.582814 25505902.491846 0.000000 6697777.271416 25505899.509893 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".167">
+						<PntList3D>6697769.193055 25505903.256665 0.000000 6697771.582799 25505902.492846 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".168">
+						<PntList3D>6697731.243769 25505903.170271 35.132000 6697761.461774 25505908.252785 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".169">
+						<PntList3D>6697761.461790 25505908.251785 0.000000 6697769.193024 25505903.258665 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".170">
+						<PntList3D>6697761.462774 25505908.252800 0.000000 6697761.908655 25505905.822394 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".171">
+						<PntList3D>6697696.454944 25505897.725431 0.000000 6697722.669532 25505901.828176 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".172">
+						<PntList3D>6697702.636736 25505868.615167 35.367500 6697716.052000 25505789.726003 35.721000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".173">
+						<PntList3D>6697716.052000 25505789.726003 35.801000 6697706.957779 25505789.092987 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".174">
+						<PntList3D>6697707.872150 25505902.775883 0.000000 6697707.245177 25505906.596639 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".175">
+						<PntList3D>6697730.500138 25505906.572228 0.000000 6697707.872150 25505902.775883 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".176">
+						<PntList3D>6697716.052001 25505789.726003 36.001000 6697716.421001 25505787.487003 36.069000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".177">
+						<PntList3D>6697716.421001 25505787.487003 36.019000 6697722.666297 25505785.522065 36.067500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".178">
+						<PntList3D>6697716.421001 25505787.487003 36.079000 6697722.774001 25505737.118003 36.247500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".179">
+						<PntList3D>6697722.669532 25505901.828176 0.000000 6697731.243769 25505903.170271 35.132000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".180">
+						<PntList3D>6697729.920001 25505738.404003 36.367500 6697722.774001 25505737.118003 36.247500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".181">
+						<PntList3D>6697731.243769 25505903.170271 36.602000 6697731.077176 25505900.438558 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".182">
+						<PntList3D>6697731.243769 25505903.170271 36.202000 6697736.333833 25505899.957227 36.264000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".183">
+						<PntList3D>6697736.333833 25505899.957227 36.464000 6697736.937527 25505898.564574 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".184">
+						<PntList3D>6697231.989242 25505811.317451 34.927500 6697215.468783 25505807.249701 34.706000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".185">
+						<PntList3D>6697223.089485 25505761.925135 34.121000 6697215.468783 25505807.249701 34.266000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".186">
+						<PntList3D>6697223.089485 25505761.925135 34.901000 6697228.476705 25505762.888071 37.547500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".187">
+						<PntList3D>6697231.332684 25505713.338780 34.017000 6697223.089485 25505761.925135 34.111000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".188">
+						<PntList3D>6697244.378825 25505640.835598 0.000000 6697231.332684 25505713.338780 34.028000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".189">
+						<PntList3D>6697232.974260 25505813.233517 0.000000 6697231.605644 25505820.523266 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".190">
+						<PntList3D>6697232.974260 25505813.233517 0.000000 6697231.989242 25505811.317451 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".191">
+						<PntList3D>6697232.974260 25505813.233517 0.000000 6697267.608487 25505819.377039 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".192">
+						<PntList3D>6697246.595121 25505628.162329 0.000000 6697244.378825 25505640.835598 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".193">
+						<PntList3D>6697267.608487 25505819.377039 0.000000 6697266.229556 25505826.555625 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".194">
+						<PntList3D>6697267.608487 25505819.377039 0.000000 6697304.881680 25505825.798593 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".195">
+						<PntList3D>6697304.881680 25505825.798593 0.000000 6697303.291994 25505833.025986 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".196">
+						<PntList3D>6697452.179089 25505859.085126 0.000000 6697451.424165 25505865.372240 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".197">
+						<PntList3D>6697452.179089 25505859.085126 0.000000 6697477.906314 25505863.473494 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".198">
+						<PntList3D>6697452.179089 25505859.085126 0.000000 6697452.325939 25505850.455448 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".199">
+						<PntList3D>6697477.906314 25505863.473494 0.000000 6697477.313536 25505869.961394 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".200">
+						<PntList3D>6697477.906314 25505863.473494 0.000000 6697497.141289 25505867.387396 35.264000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".201">
+						<PntList3D>6697497.102514 25505869.548956 35.480000 6697496.850844 25505873.441126 35.487500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".202">
+						<PntList3D>6697497.141289 25505867.387396 35.325000 6697497.102514 25505869.548956 35.447500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".203">
+						<PntList3D>6697497.141289 25505867.387396 35.248000 6697532.972666 25505868.315725 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".204">
+						<PntList3D>6697497.141289 25505867.387396 35.355000 6697498.136233 25505859.414935 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".205">
+						<PntList3D>6697498.136233 25505859.414935 0.000000 6697498.347981 25505857.255998 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".206">
+						<PntList3D>6697532.411817 25505864.279945 0.000000 6697524.115702 25505857.456695 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".207">
+						<PntList3D>6697532.972666 25505868.315725 0.000000 6697532.150321 25505873.083583 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".208">
+						<PntList3D>6697532.411817 25505864.279945 0.000000 6697532.972666 25505868.315725 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".209">
+						<PntList3D>6697573.979801 25505875.746974 0.000000 6697532.972666 25505868.315725 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".210">
+						<PntList3D>6697581.029193 25505825.033384 0.000000 6697572.299139 25505879.212729 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".211">
+						<PntList3D>6697590.389631 25505777.559052 0.000000 6697573.979801 25505875.746974 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".212">
+						<PntList3D>6697590.350105 25505769.744917 0.000000 6697581.029193 25505825.033384 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".213">
+						<PntList3D>6697864.370001 25505761.100003 37.847000 6697865.678488 25505758.122167 0.000000 6697865.678488 25505758.122167 0.000000 6697879.073855 25505727.234199 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".214">
+						<PntList3D>6697890.815563 25505746.183587 37.817500 6697869.673694 25505749.179255 39.700108</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".215">
+						<PntList3D>6697847.771067 25505798.875927 35.990000 6697864.370001 25505761.100003 37.847000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".216">
+						<PntList3D>6697864.370001 25505761.100003 0.000000 6697876.599767 25505765.962838 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".217">
+						<PntList3D>6697857.526221 25505795.480603 36.136000 6697867.167260 25505792.354473 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".218">
+						<PntList3D>6697857.526216 25505795.480604 36.106000 6697849.400631 25505799.033003 36.121157</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".219">
+						<PntList3D>6697847.771067 25505798.875927 37.290000 6697846.802516 25505798.380208 37.299000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".220">
+						<PntList3D>6697849.400628 25505799.033049 36.177937 6697847.771071 25505798.875903 36.140000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".221">
+						<PntList3D>6697847.771067 25505798.875927 36.190000 6697859.496021 25505804.304483 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".222">
+						<PntList3D>6697847.771067 25505798.875927 36.240000 6697844.800247 25505800.437414 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".223">
+						<PntList3D>6697874.360001 25505801.440003 36.784000 6697849.400628 25505799.033049 36.177937</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".224">
+						<PntList3D>6697874.360001 25505801.440003 36.834000 6697905.604589 25505803.060098 36.491000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".225">
+						<PntList3D>6697874.360001 25505801.440003 37.434000 6697874.792655 25505804.077077 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".226">
+						<PntList3D>6697672.837835 25506189.607255 41.938000 6697672.774925 25506194.046809 41.387500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".227">
+						<PntList3D>6697672.868853 25506179.647048 41.237500 6697672.837835 25506189.607255 41.337500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".228">
+						<PntList3D>6697688.821191 25506147.246712 39.337500 6697672.868853 25506179.647048 41.187500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".229">
+						<PntList3D>6697688.821191 25506147.246712 38.577500 6697693.901574 25506134.712887 38.597500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".230">
+						<PntList3D>6697688.821191 25506147.246712 38.587500 6697704.354015 25506157.682930 38.817500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".231">
+						<PntList3D>6697704.354015 25506157.682930 38.817500 6697703.149877 25506160.290727 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".232">
+						<PntList3D>6697704.354015 25506157.682930 39.377500 6697711.426191 25506161.420461 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".233">
+						<PntList3D>6697818.310001 25506131.870003 0.000000 6697824.360001 25506146.630003 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".234">
+						<PntList3D>6697211.941182 25506187.979198 0.000000 6697271.338729 25506198.960493 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".235">
+						<PntList3D>6697414.987659 25506140.446446 41.510000 6697412.612700 25506146.041238 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".236">
+						<PntList3D>6697538.879609 25506151.756625 38.150000 6697539.079069 25506156.409966 40.660000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".237">
+						<PntList3D>6697540.161766 25506131.503687 40.926000 6697539.179150 25506145.126716 0.000000 6697538.879609 25506151.756625 38.090000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".238">
+						<PntList3D>6697538.879609 25506151.756625 38.070000 6697563.675556 25506150.288476 40.420000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".239">
+						<PntList3D>6697563.675556 25506150.288476 40.420000 6697559.860549 25506130.353277 40.900000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".240">
+						<PntList3D>6697563.675556 25506150.288476 40.420000 6697589.732621 25506145.874465 0.000000 6697590.394079 25506145.742173 0.000000 6697615.536095 25506139.669054 39.950000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".241">
+						<PntList3D>6697616.369705 25506142.138861 40.570000 6697615.536095 25506139.669054 39.980000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".242">
+						<PntList3D>6697672.837835 25506189.607255 41.378000 6697670.386772 25506190.528199 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".243">
+						<PntList3D>6696583.343697 25505723.927417 32.724000 6696603.288641 25505726.329956 33.337500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".244">
+						<PntList3D>6696603.288641 25505726.329956 0.000000 6696604.067474 25505724.431634 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".245">
+						<PntList3D>6696603.288641 25505726.329956 0.000000 6696595.416063 25505745.856943 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".246">
+						<PntList3D>6696603.288626 25505726.330956 0.000000 6696617.499226 25505728.334533 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".247">
+						<PntList3D>6696617.499210 25505728.335533 0.000000 6696634.326780 25505730.550799 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".248">
+						<PntList3D>6696653.528205 25505733.182084 0.000000 6696656.070570 25505728.420301 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".249">
+						<PntList3D>6696634.326780 25505730.550799 0.000000 6696636.838128 25505737.069320 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".250">
+						<PntList3D>6696634.326780 25505730.550799 0.000000 6696653.528205 25505733.182084 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".251">
+						<PntList3D>6696653.528190 25505733.183084 0.000000 6696669.761646 25505735.007317 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".252">
+						<PntList3D>6696669.761631 25505735.008317 0.000000 6696687.277422 25505737.344026 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".253">
+						<PntList3D>6696636.838128 25505737.069320 0.000000 6696631.389414 25505752.262756 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".254">
+						<PntList3D>6696687.277422 25505737.344026 36.017500 6696689.916954 25505756.515358 36.448000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".255">
+						<PntList3D>6696595.415063 25505745.856928 0.000000 6696594.149914 25505750.874092 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".256">
+						<PntList3D>6696594.148914 25505750.874076 0.000000 6696593.508349 25505754.140589 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".257">
+						<PntList3D>6696631.389414 25505752.262756 0.000000 6696631.834062 25505757.564860 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".258">
+						<PntList3D>6696689.915954 25505756.515342 36.498000 6696690.541590 25505761.555173 36.496000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".259">
+						<PntList3D>6696631.835062 25505757.564876 0.000000 6696631.882536 25505760.831819 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".260">
+						<PntList3D>6696690.540590 25505761.555158 36.546000 6696690.789475 25505762.949027 36.573000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".261">
+						<PntList3D>6696690.789475 25505762.949027 36.943000 6696694.122947 25505768.202509 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".262">
+						<PntList3D>6696583.682907 25505768.834638 0.000000 6696597.954217 25505800.210147 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".263">
+						<PntList3D>6696641.481741 25505787.048145 0.000000 6696656.434628 25505789.035975 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".264">
+						<PntList3D>6696556.310001 25505700.410003 31.569000 6696553.761237 25505719.338619 31.759000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".265">
+						<PntList3D>6696553.761237 25505719.338619 32.299000 6696535.636025 25505714.323490 32.757500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".266">
+						<PntList3D>6696553.761237 25505719.338619 31.759000 6696554.247930 25505769.689449 32.607500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".267">
+						<PntList3D>6696553.761237 25505719.338619 32.229000 6696561.251683 25505720.662268 32.577500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".268">
+						<PntList3D>6696561.251683 25505720.662268 32.577500 6696583.343697 25505723.927417 32.704000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".269">
+						<PntList3D>6696576.493280 25505770.096726 0.000000 6696583.682907 25505768.834638 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".270">
+						<PntList3D>6696554.247930 25505769.689449 0.000000 6696551.708340 25505769.650946 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".271">
+						<PntList3D>6696554.247930 25505769.689449 0.000000 6696565.155109 25505769.924823 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".272">
+						<PntList3D>6696565.155125 25505769.923823 0.000000 6696572.043225 25505770.080260 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".273">
+						<PntList3D>6696572.043225 25505770.080260 0.000000 6696576.493295 25505770.095727 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".274">
+						<PntList3D>6697038.273001 25505782.354003 36.060000 6697044.804001 25505745.335003 35.710000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".275">
+						<PntList3D>6697048.646001 25505722.296003 35.620000 6697038.328001 25505729.241003 100.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".276">
+						<PntList3D>6697062.244001 25505674.559003 35.050000 6697040.970001 25505671.913003 35.250000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".277">
+						<PntList3D>6697055.489001 25505684.591003 35.300000 6697044.528001 25505691.973003 100.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".278">
+						<PntList3D>6697044.804001 25505745.335003 35.700000 6697048.646001 25505722.296003 35.440000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".279">
+						<PntList3D>6697048.646001 25505722.296003 35.440000 6697055.489001 25505684.591003 35.050000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".280">
+						<PntList3D>6697055.489001 25505684.591003 35.090000 6697062.244001 25505674.559003 34.960000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".281">
+						<PntList3D>6697062.244001 25505674.559003 34.960000 6697078.691001 25505650.419003 34.660000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".282">
+						<PntList3D>6697223.089481 25505761.925103 34.641000 6697203.622096 25505760.652494 37.547500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".283">
+						<PntList3D>6696614.630345 25506021.114059 0.000000 6696578.964915 25506006.800378 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".284">
+						<PntList3D>6696660.381198 25506028.519172 0.000000 6696614.630345 25506021.114059 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".285">
+						<PntList3D>6696660.380198 25506028.519157 0.000000 6696660.017379 25506031.473858 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".286">
+						<PntList3D>6696660.381198 25506028.519172 0.000000 6696687.737047 25506039.469649 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".287">
+						<PntList3D>6696687.737047 25506039.469649 0.000000 6696685.737261 25506048.812968 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".288">
+						<PntList3D>6697084.028626 25506179.659320 0.000000 6697158.371616 25506178.476369 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".289">
+						<PntList3D>6697093.790106 25506016.623213 39.928000 6697145.493458 25506021.713445 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".290">
+						<PntList3D>6697128.655833 25506045.357778 38.790000 6697125.107341 25506050.889577 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".291">
+						<PntList3D>6697165.287566 25506051.146555 35.967500 6697128.655833 25506045.357778 38.610000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".292">
+						<PntList3D>6697128.794578 25506040.230532 38.730000 6697128.655833 25506045.357778 38.650000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".293">
+						<PntList3D>6697128.794578 25506040.230532 38.810000 6697130.341384 25506027.995960 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".294">
+						<PntList3D>6697169.127161 25506025.213441 0.000000 6697145.493458 25506021.713445 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".295">
+						<PntList3D>6697158.371616 25506178.476369 0.000000 6697211.941182 25506187.979198 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".296">
+						<PntList3D>6697161.414758 25506073.694060 22.702372 6697160.500914 25506079.305247 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".297">
+						<PntList3D>6697161.954761 25506070.378336 36.022000 6697161.414758 25506073.694060 22.702372</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".298">
+						<PntList3D>6697165.287566 25506051.146555 0.000000 6697161.954761 25506070.378336 35.882000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".299">
+						<PntList3D>6697210.306355 25506057.958562 38.180000 6697165.287566 25506051.146555 35.967500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".300">
+						<PntList3D>6697165.287566 25506051.146555 0.000000 6697169.360624 25506028.273748 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".301">
+						<PntList3D>6697184.742011 25506027.525898 0.000000 6697169.127161 25506025.213441 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Hylätty"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Hylätty"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".302">
+						<PntList3D>6697169.127161 25506025.213441 0.000000 6697169.360624 25506028.273748 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".303">
+						<PntList3D>6697172.520150 25506005.168074 0.000000 6697169.360624 25506028.273748 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".304">
+						<PntList3D>6697182.808694 25506040.927501 0.000000 6697184.742011 25506027.525898 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Hylätty"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Hylätty"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".305">
+						<PntList3D>6697208.899530 25506066.976847 38.550000 6697205.211065 25506073.783194 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".306">
+						<PntList3D>6697208.899530 25506066.976847 38.550000 6697210.306355 25506057.958562 38.370000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".307">
+						<PntList3D>6697210.455244 25506056.185698 38.320000 6697210.306355 25506057.958562 38.330000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".308">
+						<PntList3D>6697212.799810 25506043.165357 38.530000 6697210.455244 25506056.185698 38.320000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".309">
+						<PntList3D>6697212.799810 25506043.165357 38.560000 6697214.487660 25506035.612981 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".310">
+						<PntList3D>6696964.896001 25506044.546003 40.090000 6696917.683001 25506045.278003 39.480000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".311">
+						<PntList3D>6696918.654654 25506181.686217 0.000000 6696956.290029 25506180.972757 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".312">
+						<PntList3D>6696956.290029 25506180.972757 0.000000 6697024.090583 25506180.580656 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".313">
+						<PntList3D>6696963.475001 25506017.930003 40.030000 6696962.338470 25506017.660344 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".314">
+						<PntList3D>6696963.475001 25506017.930003 40.900000 6696963.596001 25506022.075003 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".315">
+						<PntList3D>6696963.596001 25506022.075003 0.000000 6696964.311001 25506039.656003 40.190000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".316">
+						<PntList3D>6696964.311001 25506039.656003 40.200000 6696964.896001 25506044.546003 40.100000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".317">
+						<PntList3D>6697024.090583 25506180.580656 0.000000 6697084.028626 25506179.659320 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".318">
+						<PntList3D>6697048.751429 25506015.688876 0.000000 6697042.884448 25506013.319479 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".319">
+						<PntList3D>6697048.143455 25506040.205767 40.020000 6697048.012109 25506033.434314 40.110000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".320">
+						<PntList3D>6697048.012109 25506033.434314 40.070000 6697049.255957 25506018.807175 41.133000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".321">
+						<PntList3D>6697093.326326 25506041.340867 39.230000 6697048.143455 25506040.205767 39.950000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".322">
+						<PntList3D>6697049.279999 25506015.902341 41.188000 6697048.680538 25506015.864069 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".323">
+						<PntList3D>6697049.279999 25506015.902341 41.068000 6697048.751429 25506015.688876 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".324">
+						<PntList3D>6697093.790106 25506016.623213 39.928000 6697049.279999 25506015.902341 41.028000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".325">
+						<PntList3D>6697049.279999 25506015.902341 41.148000 6697049.284089 25506015.351908 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".326">
+						<PntList3D>6697093.590920 25506024.285716 39.460000 6697093.090530 25506037.105004 39.300000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".327">
+						<PntList3D>6697093.090530 25506037.105004 39.210000 6697093.326326 25506041.340867 39.280000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".328">
+						<PntList3D>6697093.326326 25506041.340867 39.380000 6697093.245639 25506047.937449 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".329">
+						<PntList3D>6697128.655833 25506045.357778 38.610000 6697093.326326 25506041.340867 39.200000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".330">
+						<PntList3D>6697093.790106 25506016.623213 39.768000 6697093.590920 25506024.285716 39.460000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".331">
+						<PntList3D>6697093.790106 25506016.623213 39.938000 6697094.514161 25505970.650054 40.447000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".332">
+						<PntList3D>6696853.085330 25505949.302296 0.000000 6696876.235567 25505960.604045 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".333">
+						<PntList3D>6696856.699504 25506060.514676 35.257500 6696897.572001 25506062.660003 35.597500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".334">
+						<PntList3D>6696876.235567 25505960.604045 0.000000 6696878.871109 25505954.973617 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".335">
+						<PntList3D>6696876.663001 25505960.552003 40.360000 6696880.127001 25505961.543003 40.651000 6696882.391001 25505962.509003 40.754000 6696883.535831 25505963.034849 0.000000 6696891.875933 25505967.113400 41.370000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".336">
+						<PntList3D>6696878.797001 25505946.457003 41.220000 6696880.213041 25505952.213803 40.730000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".337">
+						<PntList3D>6696887.064001 25505950.447003 41.450000 6696878.797001 25505946.457003 41.260000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".338">
+						<PntList3D>6696878.871109 25505954.973617 0.000000 6696880.213042 25505952.213774 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".339">
+						<PntList3D>6696892.771001 25506011.824003 40.210000 6696891.706001 25506010.416003 40.410000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".340">
+						<PntList3D>6696906.152731 25506011.595903 40.040000 6696892.771001 25506011.824003 40.220000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".341">
+						<PntList3D>6696893.846843 25506182.156140 0.000000 6696895.857231 25506168.947722 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".342">
+						<PntList3D>6696893.847843 25506182.156156 0.000000 6696918.654654 25506181.686217 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".343">
+						<PntList3D>6696897.274128 25506120.414902 0.000000 6696894.175450 25506120.181907 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".344">
+						<PntList3D>6696897.274128 25506120.414902 0.000000 6696895.856231 25506168.947707 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".345">
+						<PntList3D>6696897.572001 25506062.660003 35.597500 6696897.274128 25506120.414902 35.727500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".346">
+						<PntList3D>6696897.274128 25506120.414902 0.000000 6696906.890041 25506120.661704 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".347">
+						<PntList3D>6696918.017017 25506059.437230 39.320000 6696897.572001 25506062.660003 37.017500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".348">
+						<PntList3D>6696908.870001 25506010.640003 40.010000 6696906.152731 25506011.595903 40.040000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".349">
+						<PntList3D>6696906.890041 25506120.661704 0.000000 6696910.725103 25506120.674848 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".350">
+						<PntList3D>6696916.749001 25506019.775003 39.790000 6696908.870001 25506010.640003 40.010000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".351">
+						<PntList3D>6696917.326422 25506121.408980 0.000000 6696910.725103 25506120.674848 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".352">
+						<PntList3D>6696916.749001 25506019.775003 39.710000 6696917.028001 25506024.390003 39.640000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".353">
+						<PntList3D>6696917.028001 25506024.390003 39.630000 6696917.683001 25506045.278003 39.400000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".354">
+						<PntList3D>6696917.683001 25506045.278003 39.390000 6696917.980001 25506059.522003 39.300000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".355">
+						<PntList3D>6696918.654654 25506181.686217 0.000000 6696918.563869 25506179.890719 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".356">
+						<PntList3D>6696687.737047 25506039.469649 0.000000 6696741.961953 25506049.943447 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".357">
+						<PntList3D>6696687.923406 25505917.222132 0.000000 6696714.648924 25505920.474530 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".358">
+						<PntList3D>6696714.647924 25505920.474514 0.000000 6696717.120294 25505914.920618 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".359">
+						<PntList3D>6696714.648924 25505920.474530 0.000000 6696763.252931 25505926.167788 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".360">
+						<PntList3D>6696714.648924 25505920.474530 0.000000 6696714.809867 25505921.996074 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".361">
+						<PntList3D>6696717.118294 25505914.920587 0.000000 6696718.611405 25505911.555994 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".362">
+						<PntList3D>6696718.610406 25505911.555979 0.000000 6696717.746004 25505905.180438 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".363">
+						<PntList3D>6696741.961953 25506049.943447 0.000000 6696818.838197 25506059.111572 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".364">
+						<PntList3D>6696763.252931 25505926.167788 0.000000 6696793.007109 25505929.588116 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".365">
+						<PntList3D>6696763.252946 25505926.166788 0.000000 6696767.303804 25505920.587821 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".366">
+						<PntList3D>6696767.302819 25505920.586806 0.000000 6696769.240281 25505917.464966 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".367">
+						<PntList3D>6696793.007109 25505929.588116 0.000000 6696820.969665 25505933.173295 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".368">
+						<PntList3D>6696818.838197 25506059.111572 0.000000 6696856.699504 25506060.514676 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".369">
+						<PntList3D>6696820.969665 25505933.173295 0.000000 6696853.085330 25505949.302296 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".370">
+						<PntList3D>6696820.969665 25505933.173295 0.000000 6696823.721635 25505928.240680 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".371">
+						<PntList3D>6696823.721620 25505928.241680 0.000000 6696825.476925 25505925.591111 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".372">
+						<PntList3D>6696825.476910 25505925.592111 0.000000 6696828.150543 25505919.296215 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".373">
+						<PntList3D>6696853.085330 25505949.302296 0.000000 6696855.740414 25505943.702167 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".374">
+						<PntList3D>6696855.740414 25505943.702167 0.000000 6696857.260650 25505941.055034 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".375">
+						<PntList3D>6696597.471365 25505870.512637 0.000000 6696605.929132 25505866.410581 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".376">
+						<PntList3D>6696597.471365 25505870.512637 0.000000 6696618.496764 25505910.949157 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".377">
+						<PntList3D>6696605.929132 25505866.410581 0.000000 6696612.708432 25505863.453156 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".378">
+						<PntList3D>6696621.308640 25505926.404842 0.000000 6696606.169284 25505966.926089 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".379">
+						<PntList3D>6696606.170284 25505966.926104 0.000000 6696606.526561 25505969.877707 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".380">
+						<PntList3D>6696612.708432 25505863.453156 0.000000 6696615.930911 25505862.050914 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".381">
+						<PntList3D>6696618.496764 25505910.949157 0.000000 6696647.895225 25505917.713315 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".382">
+						<PntList3D>6696618.496764 25505910.949157 0.000000 6696620.313736 25505914.784965 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".383">
+						<PntList3D>6696620.313736 25505914.784965 0.000000 6696634.484465 25505920.737208 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".384">
+						<PntList3D>6696620.313736 25505914.784965 0.000000 6696621.308640 25505926.404842 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".385">
+						<PntList3D>6696626.288426 25505855.599498 0.000000 6696645.034419 25505884.113648 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".386">
+						<PntList3D>6696634.484465 25505920.737208 0.000000 6696637.539668 25505943.362071 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".387">
+						<PntList3D>6696645.034419 25505884.113648 0.000000 6696668.579395 25505883.891587 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".388">
+						<PntList3D>6696647.895225 25505917.713315 0.000000 6696687.923406 25505917.222132 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".389">
+						<PntList3D>6696647.895225 25505917.713315 0.000000 6696672.293535 25505986.203884 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".390">
+						<PntList3D>6696660.953355 25505990.254236 38.027500 6696659.769523 25505994.063549 38.057500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".391">
+						<PntList3D>6696672.293535 25505986.203884 0.000000 6696660.381198 25506028.519172 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".392">
+						<PntList3D>6696672.293535 25505986.203884 0.000000 6696660.953355 25505990.254236 38.027500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".393">
+						<PntList3D>6696668.579395 25505883.891587 0.000000 6696678.405453 25505901.213740 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".394">
+						<PntList3D>6696687.924406 25505917.222147 0.000000 6696688.661210 25505911.367918 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".395">
+						<PntList3D>6696688.663210 25505911.367948 0.000000 6696689.032969 25505908.285343 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".396">
+						<PntList3D>6696689.033969 25505908.285358 0.000000 6696689.234512 25505903.831094 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".397">
+						<PntList3D>6696540.996101 25505990.720658 0.000000 6696491.478971 25505998.883516 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".398">
+						<PntList3D>6696506.341155 25505858.374235 0.000000 6696524.640207 25505867.226261 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".399">
+						<PntList3D>6696524.640207 25505867.226261 0.000000 6696545.533293 25505874.702520 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".400">
+						<PntList3D>6696540.996101 25505990.720658 0.000000 6696529.643496 25506007.331681 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".401">
+						<PntList3D>6696578.964915 25506006.800378 0.000000 6696540.996101 25505990.720658 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".402">
+						<PntList3D>6696566.127784 25505873.575664 0.000000 6696545.533293 25505874.702520 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".403">
+						<PntList3D>6696581.840830 25505865.464326 0.000000 6696566.127784 25505873.575664 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".404">
+						<PntList3D>6696596.176627 25505871.215057 0.000000 6696581.840830 25505865.464326 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".405">
+						<PntList3D>6696597.471365 25505870.512637 0.000000 6696596.176627 25505871.215057 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".406">
+						<PntList3D>6697215.468783 25505807.249701 34.666000 6697196.508434 25505802.162429 37.547500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".407">
+						<PntList3D>6697202.975287 25505829.189786 34.567500 6697215.468783 25505807.249701 34.246000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".408">
+						<PntList3D>6697200.602131 25505842.578722 0.000000 6697202.975287 25505829.189786 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".409">
+						<PntList3D>6697189.598521 25505841.711834 35.367500 6697183.405410 25505841.326612 0.317500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".410">
+						<PntList3D>6697200.602131 25505842.578722 0.000000 6697189.598521 25505841.711834 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".411">
+						<PntList3D>6697200.602131 25505842.578722 0.000000 6697204.763741 25505843.216861 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".412">
+						<PntList3D>6697192.340392 25505891.332799 0.000000 6697200.602131 25505842.578722 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".413">
+						<PntList3D>6697183.837280 25505940.374233 0.000000 6697192.340392 25505891.332799 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".414">
+						<PntList3D>6697094.514161 25505970.650054 40.447000 6697092.574690 25505937.693398 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".415">
+						<PntList3D>6697092.574690 25505937.693398 40.627500 6697089.561390 25505937.825904 40.667500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".416">
+						<PntList3D>6697178.985813 25505967.689544 0.000000 6697183.837280 25505940.374233 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".417">
+						<PntList3D>6697172.520150 25506005.168074 0.000000 6697178.985813 25505967.689544 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".418">
+						<PntList3D>6696554.247930 25505769.689449 0.000000 6696575.328566 25505827.194979 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".419">
+						<PntList3D>6696600.105008 25505798.518638 0.000000 6696602.606544 25505783.389526 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".420">
+						<PntList3D>6696618.536081 25505803.214384 0.000000 6696621.053628 25505785.182316 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".421">
+						<PntList3D>6696637.484760 25505805.563816 0.000000 6696641.481741 25505787.048145 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".422">
+						<PntList3D>6696597.954217 25505800.210147 0.000000 6696600.105008 25505798.518638 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".423">
+						<PntList3D>6696597.954217 25505800.210147 0.000000 6696609.036100 25505824.079788 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".424">
+						<PntList3D>6696597.954217 25505800.210147 0.000000 6696618.536081 25505803.214384 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".425">
+						<PntList3D>6696618.536081 25505803.214384 0.000000 6696637.484760 25505805.563816 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".426">
+						<PntList3D>6696637.483760 25505805.563801 0.000000 6696636.522914 25505810.100545 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".427">
+						<PntList3D>6696637.484760 25505805.563816 0.000000 6696652.816177 25505807.518383 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".428">
+						<PntList3D>6696652.816177 25505807.518383 0.000000 6696657.124243 25505825.276911 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".429">
+						<PntList3D>6696636.521915 25505810.100530 0.000000 6696634.313704 25505822.768919 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".430">
+						<PntList3D>6696590.913778 25505821.248851 0.000000 6696594.547844 25505819.677837 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".431">
+						<PntList3D>6696584.028087 25505824.165660 0.000000 6696590.913778 25505821.248851 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".432">
+						<PntList3D>6696634.313704 25505822.768919 0.000000 6696648.006513 25505830.099011 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".433">
+						<PntList3D>6696609.036100 25505824.079788 0.000000 6696626.288426 25505855.599498 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".434">
+						<PntList3D>6696575.328566 25505827.194979 0.000000 6696584.028087 25505824.165660 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".435">
+						<PntList3D>6696575.328566 25505827.194979 0.000000 6696597.471365 25505870.512637 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".436">
+						<PntList3D>6696488.642911 25505849.603303 39.615000 6696498.342471 25505828.757652 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".437">
+						<PntList3D>6696488.642915 25505849.603324 39.335000 6696506.341155 25505858.374235 38.757500</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".438">
+						<PntList3D>6696626.288426 25505855.599498 0.000000 6696630.327529 25505855.940757 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".439">
+						<PntList3D>6696630.327529 25505855.940757 0.000000 6696653.336497 25505857.695705 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+					<Breakline brkType="standard" name=".440">
+						<PntList3D>6696653.336497 25505857.695705 0.000000 6696676.265062 25505860.136482 0.000000</PntList3D>
+						<Feature code="IM_coding" source="inframodel">
+							<Property label="terrainCoding" value="Sadevesiputket Käytössä"/>
+							<Property label="terrainCodingDesc" value="Sadevesiputket Käytössä"/>
+						</Feature>
+					</Breakline>
+				</Breaklines>
+				<DataPoints name="Sadevesiputket Hylatty">
+					<PntList3D>6697754.893621 25506076.020651 39.247500</PntList3D>
+					<Feature code="IM_coding" source="inframodel">
+						<Property label="terrainCoding" value="Sadevesiputket Hylätty"/>
+						<Property label="terrainCodingDesc" value="Sadevesiputket Hylätty"/>
+					</Feature>
+				</DataPoints>
+			</SourceData>
+			<Feature code="IM_coding" source="inframodel">
+				<Property label="surfaceCoding" value=""/>
+				<Property label="surfaceCodingDesc" value=""/>
+				<Property label="proprietaryInfraCoding" value=""/>
+				<Property label="proprietaryInfraCodingDesc" value=""/>
+			</Feature>
+		</Surface>
+	</Surfaces>
+</LandXML>
